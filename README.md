@@ -10,6 +10,9 @@ npm run build
 ```
 Drag and drop generated events.json into the Chrome DevTools Profiler.
 
-You can also use [events.json from this repo](https://raw.githubusercontent.com/BATCOH/webpack-profiling-example/master/events.json).
+You can also take events.json from `events/${node_version}` folder of this repo.
+
+## build.sh
+Weird shell script that uses [Nodebrew](https://github.com/hokaccha/nodebrew) to produce two events.json (for node 14.5.0 and node 14.6.0), and [jq](https://stedolan.github.io/jq/) with [jd](https://github.com/josephburnett/jd) to somehow compare them.
 
 ![DevTools Screenshot](https://raw.githubusercontent.com/BATCOH/webpack-profiling-example/master/devtools.png)

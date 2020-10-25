@@ -1,0 +1,3167 @@
+[
+  {
+    "ph": "I",
+    "name": "TracingStartedInPage",
+    "cat": "disabled-by-default-devtools.timeline",
+    "args": {
+      "data": {
+        "sessionId": "-1",
+        "page": "0xfff",
+        "frames": [
+          {
+            "frame": "0xfff",
+            "url": "webpack",
+            "name": ""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "ph": "I",
+    "name": "TracingStartedInBrowser",
+    "cat": "disabled-by-default-devtools.timeline",
+    "args": {
+      "data": {
+        "sessionId": "-1"
+      }
+    }
+  },
+  {
+    "ph": "b",
+    "name": "EntryOptionPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "EntryOptionPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NodeEnvironmentPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NodeEnvironmentPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExternalsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExternalsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ArrayPushCallbackChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ArrayPushCallbackChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JsonpChunkLoadingPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JsonpChunkLoadingPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "StartupChunkDependenciesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "StartupChunkDependenciesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ImportScriptsChunkLoadingPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ImportScriptsChunkLoadingPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FetchCompileWasmPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FetchCompileWasmPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FetchCompileAsyncWasmPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FetchCompileAsyncWasmPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "WorkerPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "WorkerPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SplitChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SplitChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ResolverCachePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ResolverCachePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JsonModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JsonModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AssetModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AssetModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "EntryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "EntryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InferAsyncModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InferAsyncModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DataUriPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DataUriPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FileUriPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FileUriPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "HarmonyModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "HarmonyModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AMDPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AMDPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RequireJsStuffPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RequireJsStuffPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CommonJsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CommonJsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NodeStuffPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NodeStuffPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "APIPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "APIPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExportsInfoApiPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExportsInfoApiPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ConstPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ConstPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "UseStrictPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "UseStrictPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RequireIncludePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RequireIncludePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RequireEnsurePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RequireEnsurePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RequireContextPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RequireContextPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ImportPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ImportPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SystemPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SystemPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ImportMetaPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ImportMetaPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "URLPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "URLPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DefaultStatsFactoryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DefaultStatsFactoryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DefaultStatsPresetPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DefaultStatsPresetPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DefaultStatsPrinterPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DefaultStatsPrinterPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagUsingEvalPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagUsingEvalPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "EnsureChunkConditionsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "EnsureChunkConditionsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "MergeDuplicateChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "MergeDuplicateChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagIncludedChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagIncludedChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagDependencyExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagDependencyExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagDependencyUsagePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagDependencyUsagePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "MangleExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "MangleExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ModuleConcatenationPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ModuleConcatenationPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "WasmFinalizeExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "WasmFinalizeExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DeterministicModuleIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DeterministicModuleIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DeterministicChunkIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DeterministicChunkIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DefinePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DefinePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "WarnCaseSensitiveModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "WarnCaseSensitiveModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "PersistentChildCompilerSingletonPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "PersistentChildCompilerSingletonPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "EntryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JsonModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JsonModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AssetModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AssetModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "EntryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "EntryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InferAsyncModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InferAsyncModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DataUriPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DataUriPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FileUriPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FileUriPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "HarmonyModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "HarmonyModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AMDPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AMDPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RequireJsStuffPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RequireJsStuffPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CommonJsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CommonJsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NodeStuffPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NodeStuffPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "APIPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "APIPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExportsInfoApiPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExportsInfoApiPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ConstPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ConstPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "UseStrictPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "UseStrictPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RequireIncludePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RequireIncludePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RequireEnsurePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RequireEnsurePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RequireContextPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RequireContextPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ImportPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ImportPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SystemPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SystemPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ImportMetaPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ImportMetaPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "URLPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "URLPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DefaultStatsFactoryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DefaultStatsFactoryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DefaultStatsPresetPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DefaultStatsPresetPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DefaultStatsPrinterPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DefaultStatsPrinterPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagUsingEvalPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagUsingEvalPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "EnsureChunkConditionsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "EnsureChunkConditionsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "MergeDuplicateChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "MergeDuplicateChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagIncludedChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagIncludedChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagDependencyExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagDependencyExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagDependencyUsagePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagDependencyUsagePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "MangleExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "MangleExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ModuleConcatenationPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ModuleConcatenationPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "WasmFinalizeExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "WasmFinalizeExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DeterministicModuleIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DeterministicModuleIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DeterministicChunkIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DeterministicChunkIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DefinePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DefinePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "WarnCaseSensitiveModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "WarnCaseSensitiveModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExternalModuleFactoryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExternalModuleFactoryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NormalModuleFactory",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NormalModuleFactory",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExternalModuleFactoryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExternalModuleFactoryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NormalModuleFactory",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NormalModuleFactory",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NormalModuleFactory",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NormalModuleFactory",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NormalModuleFactory",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NormalModuleFactory",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "LoaderPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "LoaderTargetPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "LoaderTargetPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "HarmonyDetectionParserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "HarmonyDetectionParserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "UseStrictPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "UseStrictPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "EntryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ResolverCachePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ResolverCachePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InferAsyncModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InferAsyncModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagDependencyExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagDependencyExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "WasmFinalizeExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "WasmFinalizeExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "WarnCaseSensitiveModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "WarnCaseSensitiveModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagDependencyUsagePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagDependencyUsagePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SplitChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SplitChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "EnsureChunkConditionsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "EnsureChunkConditionsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "MergeDuplicateChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "MergeDuplicateChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "PersistentChildCompilerSingletonPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "HarmonyDetectionParserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "HarmonyDetectionParserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "UseStrictPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "UseStrictPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CompatibilityPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InferAsyncModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InferAsyncModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagDependencyExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagDependencyExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "InnerGraphPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "WasmFinalizeExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "WasmFinalizeExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "WarnCaseSensitiveModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "WarnCaseSensitiveModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SideEffectsFlagPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagDependencyUsagePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagDependencyUsagePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "EnsureChunkConditionsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "EnsureChunkConditionsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RemoveEmptyChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "MergeDuplicateChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "MergeDuplicateChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ModuleConcatenationPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ModuleConcatenationPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DeterministicModuleIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DeterministicModuleIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DeterministicChunkIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DeterministicChunkIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagIncludedChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagIncludedChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "MangleExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "MangleExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "StartupChunkDependenciesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "StartupChunkDependenciesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CommonJsChunkLoadingPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CommonJsChunkLoadingPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CommonJsChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CommonJsChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "CommonJsChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "CommonJsChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AssetModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AssetModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ExportPropertyLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AssignLibraryPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "PersistentChildCompilerSingletonPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ModuleConcatenationPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ModuleConcatenationPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DeterministicModuleIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DeterministicModuleIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "DeterministicChunkIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "DeterministicChunkIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "FlagIncludedChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "FlagIncludedChunksPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RecordIdsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "MangleExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "MangleExportsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JsonpChunkLoadingPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JsonpChunkLoadingPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "StartupChunkDependenciesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "StartupChunkDependenciesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ChunkPrefetchPreloadPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ArrayPushCallbackChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ArrayPushCallbackChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ArrayPushCallbackChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "ArrayPushCallbackChunkFormatPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RuntimePlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "JavascriptModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "AssetModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "AssetModulesPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "RealContentHashPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TerserPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "PersistentChildCompilerSingletonPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "PersistentChildCompilerSingletonPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "PersistentChildCompilerSingletonPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "PersistentChildCompilerSingletonPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "NoEmitOnErrorsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "HtmlWebpackPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "HtmlWebpackPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "TemplatedPathPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "SizeLimitsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "e",
+    "name": "SizeLimitsPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "b",
+    "name": "ProfilingPlugin",
+    "cat": "blink.user_timing"
+  },
+  {
+    "ph": "X",
+    "name": "TaskQueueManager::ProcessTaskFromWorkQueue",
+    "cat": "toplevel",
+    "args": {
+      "src_file": "../../ipc/ipc_moji_bootstrap.cc",
+      "src_func": "Accept"
+    }
+  },
+  {
+    "ph": "X",
+    "name": "EvaluateScript",
+    "cat": "devtools.timeline",
+    "args": {
+      "data": {
+        "url": "webpack",
+        "lineNumber": 1,
+        "columnNumber": 1,
+        "frame": "0xFFF"
+      }
+    }
+  },
+  {
+    "ph": "I",
+    "name": "CpuProfile",
+    "cat": "disabled-by-default-devtools.timeline",
+    "args": {
+      "data": {
+        "cpuProfile": {}
+      }
+    }
+  }
+]
