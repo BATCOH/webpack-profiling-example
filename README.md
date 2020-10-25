@@ -1,5 +1,7 @@
 # Example for [issue #11780](https://github.com/webpack/webpack/issues/11780) at webpack
 
+## UPD You need Node.js 14.6.0+ to reproduce the issue
+
 ```bash
 git clone https://github.com/BATCOH/webpack-profiling-example.git
 cd webpack-profiling-example
